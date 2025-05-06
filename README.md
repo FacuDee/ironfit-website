@@ -1,12 +1,11 @@
 # IronFit - Entrenamiento Personalizado & Coaching Deportivo  
 
-![Banner o GIF demostrativo](img/captura-ironfit.jpg) *// Opcional: añade una imagen llamativa del proyecto*
+![Banner o GIF demostrativo](img/captura-ironfit.jpg)
 
 ---
 
 ## 🚀 **Demo**  
-[![Deploy](https://img.shields.io/badge/Ver%20Sitio-Online-green)](https://FacuDee.github.io/ironfit-website/)  
-*// Reemplaza el enlace por tu GitHub Pages o dominio personalizado*
+[![Deploy](https://FacuDee.github.io/ironfit-website/)]  
 
 ---
 
@@ -20,9 +19,9 @@
 ---
 
 ## 🛠️ **Tecnologías Utilizadas**  
-| Frontend         | Backend (si aplica)  | Herramientas           |
+| Frontend         | Backend              | Herramientas           |
 |------------------|----------------------|------------------------|
-| HTML5            | Firebase (opcional)  | Git & GitHub           |
+| HTML5            | Firebase             | Git & GitHub           |
 | CSS3 (Flex/Grid) | FormSubmit           | Google Fonts           |
 | JavaScript       |                      | Font Awesome           |
 
