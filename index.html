@@ -138,19 +138,19 @@
         <h2 class="section-title">¿LISTO PARA <span>COMENZAR</span>?</h2>
         <div class="contact-content">
           <form class="contact-form" id="reservaForm">
-            <input type="text" name="nombre" placeholder="Nombre" required>
-            <input type="email" name="email" placeholder="Email" required>
-            <input type="tel" name="telefono" placeholder="Teléfono">
+            <input type="text" name="nombre" placeholder="Nombre" required />
+            <input type="email" name="email" placeholder="Email" required />
+            <input type="tel" name="telefono" placeholder="Teléfono" />
             <select name="servicio" required>
-                <option value="" disabled selected>Programa de interés</option>
-                <option value="Fuerza Explosiva">Fuerza Explosiva</option>
-                <option value="HIIT">HIIT</option>
-                <option value="Resistencia">Resistencia</option>
+              <option value="" disabled selected>Programa de interés</option>
+              <option value="Fuerza Explosiva">Fuerza Explosiva</option>
+              <option value="HIIT">HIIT</option>
+              <option value="Resistencia">Resistencia</option>
             </select>
-            <input type="date" name="fecha" required>
-            <input type="time" name="hora" required>
+            <input type="date" name="fecha" required />
+            <input type="time" name="hora" required />
             <button type="submit" class="btn">ENVIAR SOLICITUD</button>
-        </form>
+          </form>
         </div>
       </div>
     </section>
@@ -158,7 +158,12 @@
     <!-- Footer -->
     <footer class="footer">
       <div class="container">
-        <p>&copy; 2025 IRONFIT by FacuDee. Todos los derechos reservados.</p>
+        <p>
+          &copy; 2025 IRONFIT by
+          <a href="https://facudee.github.io/PortfolioPersonal/" target="_blank"
+            >FacuDee</a
+          >. Todos los derechos reservados.
+        </p>
         <div class="social-links">
           <a href="#"><i class="fab fa-instagram"></i></a>
           <a href="#"><i class="fab fa-tiktok"></i></a>
@@ -166,6 +171,13 @@
         </div>
       </div>
     </footer>
+
+    <!-- Botón "Volver arriba" -->
+    <div class="back-to-top">
+      <a href="#home" aria-label="Volver arriba">
+        <i class="fas fa-arrow-up"></i>
+      </a>
+    </div>
 
     <!-- Firebase SDK -->
     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
