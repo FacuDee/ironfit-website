@@ -47,3 +47,39 @@ window.addEventListener('scroll', function() {
 window.addEventListener('load', function() {
     document.body.classList.add('loaded');
 });
+
+// Configura Firebase (reemplaza con tus credenciales)
+const firebaseConfig = {
+    apiKey: "AIzaSyDhsb_Oqy_FjFAzQdaQswjYI4uNSJaQ46Y",
+    authDomain: "reservas-f4860.firebaseapp.com",
+    projectId: "reservas-f4860",
+    storageBucket: "reservas-f4860.firebasestorage.app",
+    messagingSenderId: "389185460545",
+    appId: "1:389185460545:web:50e3c9993523f8aac5a9c0",
+    measurementId: "G-5D2LD2GTGZ"
+  };
+firebase.initializeApp(firebaseConfig);
+const db = firebase.firestore();
+
+// Guardar reserva
+document.querySelector('.contact-form').addEventListener('submit', (e) => {
+    e.preventDefault();
+    
+    const reserva = {
+        nombre: document.querySelector('input[name="Nombre"]').value,
+        email: document.querySelector('input[name="Email"]').value,
+        servicio: document.querySelector('select[name="Servicio"]').value,
+        fecha: document.querySelector('input[name="Fecha"]').value,
+        hora: document.querySelector('input[name="Hora"]').value,
+        timestamp: firebase.firestore.FieldValue.serverTimestamp()
+    };
+
+    db.collection("reservas").add(reserva)
+        .then(() => {
+            alert("¡Reserva enviada!");
+            window.location.href = "/gracias.html";
+        })
+        .catch((error) => {
+            console.error("Error: ", error);
+        });
+});

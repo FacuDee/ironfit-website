@@ -1,159 +1,173 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>IronFit - Entrenamiento de Alto Rendimiento</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&family=Orbitron:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&family=Orbitron:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
     <!-- Header -->
     <header class="header">
-        <div class="container">
-            <a href="#" class="logo">IRON<span>FIT</span></a>
-            <nav class="navbar">
-                <a href="#home">Inicio</a>
-                <a href="#programs">Programas</a>
-                <a href="#achievements">Logros</a>
-                <a href="#coaches">Entrenadores</a>
-                <a href="#contact">Contacto</a>
-            </nav>
-            <div class="menu-toggle">
-                <i class="fas fa-bars"></i>
-            </div>
+      <div class="container">
+        <a href="#" class="logo">IRON<span>FIT</span></a>
+        <nav class="navbar">
+          <a href="#home">Inicio</a>
+          <a href="#programs">Programas</a>
+          <a href="#achievements">Logros</a>
+          <a href="#coaches">Entrenadores</a>
+          <a href="#contact">Contacto</a>
+        </nav>
+        <div class="menu-toggle">
+          <i class="fas fa-bars"></i>
         </div>
+      </div>
     </header>
 
     <!-- Hero Section (Video Background) -->
     <section id="home" class="hero">
-        <video autoplay muted loop playsinline>
-            <source src="img/video-hero.mp4" type="video/mp4">
-            <!-- Fallback para navegadores que no soportan video -->
-            <img src="img/hero-bg.jpg" alt="Entrenamiento intensivo">
-        </video>
-        <div class="overlay"></div>
-        <div class="container">
-            <h1>TRANSFORMA <span>TUS LÍMITES</span> EN METAS</h1>
-            <p>Entrenamiento 100% personalizado con tecnología de seguimiento.</p>
-            <a href="#contact" class="btn">¡PRUEBA UNA CLASE GRATIS!</a>
-        </div>
+      <video autoplay muted loop playsinline>
+        <source src="img/video-hero.mp4" type="video/mp4" />
+        <!-- Fallback para navegadores que no soportan video -->
+        <img src="img/hero-bg.jpg" alt="Entrenamiento intensivo" />
+      </video>
+      <div class="overlay"></div>
+      <div class="container">
+        <h1>TRANSFORMA <span>TUS LÍMITES</span> EN METAS</h1>
+        <p>Entrenamiento 100% personalizado con tecnología de seguimiento.</p>
+        <a href="#contact" class="btn">¡PRUEBA UNA CLASE GRATIS!</a>
+      </div>
     </section>
 
     <!-- Programas -->
     <section id="programs" class="programs">
-        <div class="container">
-            <h2 class="section-title">NUESTROS <span>PROGRAMAS</span></h2>
-            <div class="programs-grid">
-                <div class="program-card">
-                    <i class="fas fa-dumbbell"></i>
-                    <h3>Fuerza Explosiva</h3>
-                    <p>Sesiones de levantamiento olímpico y potencia.</p>
-                    <span class="highlight">+15% rendimiento</span>
-                </div>
-                <div class="program-card">
-                    <i class="fas fa-fire"></i>
-                    <h3>HIIT</h3>
-                    <p>Quema grasa en menos tiempo con intervalos de alta intensidad.</p>
-                    <span class="highlight">400 kcal/sesión</span>
-                </div>
-                <div class="program-card">
-                    <i class="fas fa-heartbeat"></i>
-                    <h3>Resistencia</h3>
-                    <p>Mejora tu capacidad cardiovascular con entrenamientos especializados.</p>
-                    <span class="highlight">+30% VO2 Max</span>
-                </div>
-            </div>
+      <div class="container">
+        <h2 class="section-title">NUESTROS <span>PROGRAMAS</span></h2>
+        <div class="programs-grid">
+          <div class="program-card">
+            <i class="fas fa-dumbbell"></i>
+            <h3>Fuerza Explosiva</h3>
+            <p>Sesiones de levantamiento olímpico y potencia.</p>
+            <span class="highlight">+15% rendimiento</span>
+          </div>
+          <div class="program-card">
+            <i class="fas fa-fire"></i>
+            <h3>HIIT</h3>
+            <p>
+              Quema grasa en menos tiempo con intervalos de alta intensidad.
+            </p>
+            <span class="highlight">400 kcal/sesión</span>
+          </div>
+          <div class="program-card">
+            <i class="fas fa-heartbeat"></i>
+            <h3>Resistencia</h3>
+            <p>
+              Mejora tu capacidad cardiovascular con entrenamientos
+              especializados.
+            </p>
+            <span class="highlight">+30% VO2 Max</span>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Logros (Stats) -->
     <section id="achievements" class="achievements">
-        <div class="container">
-            <h2 class="section-title">LOGROS <span>RECIENTES</span></h2>
-            <div class="stats-grid">
-                <div class="stat-card">
-                    <i class="fas fa-trophy"></i>
-                    <h3 data-count="150">0</h3>
-                    <p>Clientes satisfechos</p>
-                </div>
-                <div class="stat-card">
-                    <i class="fas fa-medal"></i>
-                    <h3 data-count="12">0</h3>
-                    <p>Competiciones ganadas</p>
-                </div>
-                <div class="stat-card">
-                    <i class="fas fa-stopwatch"></i>
-                    <h3 data-count="5000">0</h3>
-                    <p>Horas de entrenamiento</p>
-                </div>
-            </div>
+      <div class="container">
+        <h2 class="section-title">LOGROS <span>RECIENTES</span></h2>
+        <div class="stats-grid">
+          <div class="stat-card">
+            <i class="fas fa-trophy"></i>
+            <h3 data-count="150">0</h3>
+            <p>Clientes satisfechos</p>
+          </div>
+          <div class="stat-card">
+            <i class="fas fa-medal"></i>
+            <h3 data-count="12">0</h3>
+            <p>Competiciones ganadas</p>
+          </div>
+          <div class="stat-card">
+            <i class="fas fa-stopwatch"></i>
+            <h3 data-count="5000">0</h3>
+            <p>Horas de entrenamiento</p>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Entrenadores -->
     <section id="coaches" class="coaches">
-        <div class="container">
-            <h2 class="section-title">NUESTROS <span>ENTRENADORES</span></h2>
-            <div class="coaches-grid">
-                <div class="coach-card">
-                    <img src="img/trainer-2.jpg" alt="Entrenador profesional">
-                    <h3>Alex Rivera</h3>
-                    <p>Especialista en fuerza</p>
-                    <div class="social">
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                    </div>
-                </div>
-                <div class="coach-card">
-                    <img src="img/trainer-1.jpg" alt="Entrenadora profesional">
-                    <h3>Marta Solís</h3>
-                    <p>Coach de HIIT</p>
-                    <div class="social">
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                    </div>
-                </div>
+      <div class="container">
+        <h2 class="section-title">NUESTROS <span>ENTRENADORES</span></h2>
+        <div class="coaches-grid">
+          <div class="coach-card">
+            <img src="img/trainer-2.jpg" alt="Entrenador profesional" />
+            <h3>Alex Rivera</h3>
+            <p>Especialista en fuerza</p>
+            <div class="social">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
             </div>
+          </div>
+          <div class="coach-card">
+            <img src="img/trainer-1.jpg" alt="Entrenadora profesional" />
+            <h3>Marta Solís</h3>
+            <p>Coach de HIIT</p>
+            <div class="social">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Contacto -->
     <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title">¿LISTO PARA <span>COMENZAR</span>?</h2>
-            <div class="contact-content">
-                <form class="contact-form">
-                    <input type="text" placeholder="Nombre" required>
-                    <input type="email" placeholder="Email" required>
-                    <select required>
-                        <option value="" disabled selected>Programa de interés</option>
-                        <option value="fuerza">Fuerza Explosiva</option>
-                        <option value="hiit">HIIT</option>
-                        <option value="resistencia">Resistencia</option>
-                    </select>
-                    <button type="submit" class="btn">ENVIAR SOLICITUD</button>
-                </form>
-            </div>
+      <div class="container">
+        <h2 class="section-title">¿LISTO PARA <span>COMENZAR</span>?</h2>
+        <div class="contact-content">
+          <form class="contact-form">
+            <input type="text" placeholder="Nombre" required />
+            <input type="email" placeholder="Email" required />
+            <select required>
+              <option value="" disabled selected>Programa de interés</option>
+              <option value="fuerza">Fuerza Explosiva</option>
+              <option value="hiit">HIIT</option>
+              <option value="resistencia">Resistencia</option>
+            </select>
+            <button type="submit" class="btn">ENVIAR SOLICITUD</button>
+          </form>
         </div>
+      </div>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container">
-            <p>&copy; 2025 IRONFIT by FacuDee. Todos los derechos reservados.</p>
-            <div class="social-links">
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-tiktok"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
-            </div>
+      <div class="container">
+        <p>&copy; 2025 IRONFIT by FacuDee. Todos los derechos reservados.</p>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-tiktok"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
         </div>
+      </div>
     </footer>
 
     <!-- Scripts -->
     <script src="js/main.js"></script>
-</body>
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+  </body>
 </html>
