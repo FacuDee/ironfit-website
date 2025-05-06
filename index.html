@@ -137,17 +137,20 @@
       <div class="container">
         <h2 class="section-title">¿LISTO PARA <span>COMENZAR</span>?</h2>
         <div class="contact-content">
-          <form class="contact-form">
-            <input type="text" placeholder="Nombre" required />
-            <input type="email" placeholder="Email" required />
-            <select required>
-              <option value="" disabled selected>Programa de interés</option>
-              <option value="fuerza">Fuerza Explosiva</option>
-              <option value="hiit">HIIT</option>
-              <option value="resistencia">Resistencia</option>
+          <form class="contact-form" id="reservaForm">
+            <input type="text" name="nombre" placeholder="Nombre" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="tel" name="telefono" placeholder="Teléfono">
+            <select name="servicio" required>
+                <option value="" disabled selected>Programa de interés</option>
+                <option value="Fuerza Explosiva">Fuerza Explosiva</option>
+                <option value="HIIT">HIIT</option>
+                <option value="Resistencia">Resistencia</option>
             </select>
+            <input type="date" name="fecha" required>
+            <input type="time" name="hora" required>
             <button type="submit" class="btn">ENVIAR SOLICITUD</button>
-          </form>
+        </form>
         </div>
       </div>
     </section>
@@ -164,10 +167,10 @@
       </div>
     </footer>
 
-    <!-- Scripts -->
-    <script src="js/main.js"></script>
     <!-- Firebase SDK -->
     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
   </body>
 </html>
