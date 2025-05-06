@@ -5,9 +5,7 @@
 ---
 
 ## 🚀 **Demo**  
-[![Deploy](https://FacuDee.github.io/ironfit-website/)]  
-
----
+[![Ver Sitio](https://img.shields.io/badge/Ver-Sitio-green?style=for-the-badge&logo=github)](https://facudee.github.io/ironfit-website/)
 
 ## ✨ **Características**  
 - ✅ Diseño moderno con **modo oscuro** y efectos neon.  
@@ -22,7 +20,7 @@
 | Frontend         | Backend              | Herramientas           |
 |------------------|----------------------|------------------------|
 | HTML5            | Firebase             | Git & GitHub           |
-| CSS3 (Flex/Grid) | FormSubmit           | Google Fonts           |
+| CSS3 (Flex/Grid) |                      | Google Fonts           |
 | JavaScript       |                      | Font Awesome           |
 
 ---
